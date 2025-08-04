@@ -1,0 +1,58 @@
+oi
+
+[ERROR: Bad request - please check your parameters]
+
+oi
+
+Olá! Como posso ajudar?
+
+qual o meu nome
+
+Desculpe, não tenho acesso a essa informação. Não consigo saber o seu nome.
+
+Sobre quem é as informações
+
+As informações são sobre Victor Sérgio Silva Barros.
+
+qual a graduação dele?
+
+Não encontrei a graduação do Victor Sérgio Silva Barros.
+
+quais experiencias academicas do Victor
+
+Não consegui encontrar as experiências acadêmicas específicas do Victor Sérgio Silva Barros.
+
+oi
+
+Olá! Como posso ajudar?
+
+Sobre quem são as informações?
+
+As informações são sobre Victor Sérgio Silva Barros.
+
+Quais as experiencias academicas do Victor?
+
+Não foi possível encontrar as informações solicitadas.
+
+Quais empresas ele já trabalhou?
+
+Não tenho essa informação na minha base de dados.
+
+Quais empresas ele já trabalhou?
+
+Não tenho essa informação.
+
+oi
+
+Olá! Como posso ajudar você hoje?
+
+Quais empresas o Victor já trabalhou?
+
+Victor já trabalhou nas seguintes empresas: Avanade (como Desenvolvedor Full Stack), Accenture (como Desenvolvedor Front-end) e Stefanini (como Desenvolvedor Front-end).
+
+Quais as experiencias academicas do Victor?
+
+As experiências acadêmicas do Victor incluem:
+
+Graduação: Engenharia de Software pela Universidade de Brasília (UnB).
+Mestrado: Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG).
