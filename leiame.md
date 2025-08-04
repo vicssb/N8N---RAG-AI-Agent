@@ -10,11 +10,7 @@
   <img src="./img/artificial-intelligence.png" alt="Logo Inteligência Artificial" width="80"/>
   <img src="./img/pineconeLog.png" alt="Logo pinecone" width="80"/>
   <img src="./img/logoN8N.png" alt="Logo N8N" width="80"/>
-  
 </div>
-
-
-Aprenda passo a passo a  para:
 
 Gerar respostas precisas e contextualizadas para perguntas técnicas.
 Automatizar tarefas repetitivas de busca e análise de informações.

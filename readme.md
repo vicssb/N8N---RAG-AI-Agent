@@ -7,58 +7,50 @@
 </p>
 
 <div align="top" style="display: flex; justify-content: space-between;">
- <img src="./img/dio.png" alt="Logo DIO" width="80"/>
-<img src="./img/artificial-intelligence.png" alt="Logo Artificial Intelligence" width="80"/>
-<img src="./img/yolo.png" alt="Logo Yolo" width="80"/>
-<img src="./img/TensorFlow.png" alt="Logo TensorFlow" width="80"/>
-
+  <img src="./img/artificial-intelligence.png" alt="Logo Inteligência Artificial" width="80"/>
+  <img src="./img/pineconeLog.png" alt="Logo pinecone" width="80"/>
+  <img src="./img/logoN8N.png" alt="Logo N8N" width="80"/>
 </div>
 
-# Creating a Database and Training the YOLO Network
-
-This project aims to create a database and train the YOLO (You Only Look Once) network, one of the most popular architectures for real-time object detection.
+Generate accurate and contextualized answers to technical questions.
+Automate repetitive tasks of searching and analyzing information.
 
 ## Introduction
 
-The YOLO network is widely used in computer vision applications due to its ability to perform object detection with high accuracy and speed. This project covers the steps required to create a custom database and train the YOLO network to meet specific needs.
+This project aims to integrate artificial intelligence and automation to access complex information and transform it into useful knowledge. In this project, I used the RAG (Retrieval Augmented Generation) technique. An Agent was created in N8N that acts as a true personalized technical expert in any area!
 
 ## Project Structure
 
-1. **Database Creation**:
-- Collect images.
-- Annotate images using tools such as LabelImg.
-- Organize data into folders for training and validation.
+1. **Knowledge Base Creation**:
+   - Efficiently consult and extract data from various sources.
+   - Every minute, the agent checks if a new file has been added to a specific Google Drive folder.
+   - Google Gemini embeddings are numerical representations of text, image, or video data that capture the meaning and semantic relationships between them. These numerical vectors allow machine learning models, especially generative AI, to process and produce language more effectively, identifying complex patterns and semantic relationships specific to a given content.
+   - Pinecone is a managed vector database in the cloud, designed to optimize similarity search for data in artificial intelligence applications. It allows developers to easily integrate vector search into their applications, such as semantic search, recommendation systems, and AI-driven data analysis.
+   ![N8N Flow](./img/RAG-Vicssb.png)
+   [Download N8N Flow](rag_vicssb.json)
 
-2. **YOLO Network Training**:
-- Set up the training environment.
-- Tune hyperparameters.
-- Run training and evaluate results.
+2. **RAG AI Agent**:
+   - The RAG agent does the following: Retrieval: the user's request is used to query an external knowledge database, such as a vector repository, keyword search, or SQL database. The goal is to obtain the supporting data needed for the LLM's response.
+   - Hyperparameter tuning.
+   ![N8N Flow](./img/Vic_Agent.png)
+   [Download N8N Flow](Vic_Agent.json)
 
 ## Requirements
 
 - Python 3.7 or higher.
-- OpenCV library.
-- TensorFlow or PyTorch framework.
-- Image annotation tool (e.g., LabelImg).
+- TensorFlow or PyTorch framework for AI model development and training.
+- Image annotation tool (example: LabelImg) to prepare input data.
+- Google Drive account for storage and automatic updating of knowledge files.
+- Pinecone for managing and searching embedding vectors.
+- Gemini API for generating text, image, or video embeddings.
+- N8N for workflow automation and agent integration.
 
-## Usage on Google Colab
+## Usage in N8N Chat
+![N8N Chat](./img/chat1.png)
 
-To facilitate training, you can use the notebook available on Google Colab: [Transfer Learning Notebook](https://github.com/vicssb/Training-Neural-Networks-with-Transfer-Learning/blob/main/notebooks/transfer-learning.ipynb).
+## Usage in Web Chat
+![Web Chat](./img/chat2.png)
 
-## Images
-
-![DIO](./img/dio.png)
-![Artificial Intelligence](./img/artificial-intelligence.png)
-
-## Reference
-
-For more details, see the original lab: [Creating a Database and Training the YOLO Network](https://web.dio.me/lab/criacao-de-uma-base-de-dados-e-treinamento-da-rede-yolo/learning/7400ba5c-9fd7-42cd-aefe-131acfe198cb).
-
-## Results
-
-After training, the model's performance will be evaluated, and the results will be displayed. You can visualize the training process and results using TensorBoard.
-
-<img src="./img/Accuracy - Loss.png" alt="Accuracy - Loss Plot" width="200"/>
 
 ## License
 
