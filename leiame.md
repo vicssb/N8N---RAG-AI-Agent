@@ -8,14 +8,14 @@
 
 <div align="top" style="display: flex; justify-content: space-between;">
   <img src="./img/artificial-intelligence.png" alt="Logo Inteligência Artificial" width="80"/>
-  <img src="./img/yolo.png" alt="Logo Yolo" width="80"/>
-  <img src="./img/TensorFlow.png" alt="Logo TensorFlow" width="80"/>
+  <img src="./img/pineconeLog.png" alt="Logo pinecone" width="80"/>
+  <img src="./img/logoN8N.png" alt="Logo N8N" width="80"/>
   
 </div>
 
 
 Aprenda passo a passo a  para:
-Consultar e extrair dados de fontes diversas de forma eficiente.
+
 Gerar respostas precisas e contextualizadas para perguntas técnicas.
 Automatizar tarefas repetitivas de busca e análise de informações.
 
@@ -27,6 +27,7 @@ Este projeto tem como objetivo Integrar inteligência artificial e automação p
 ## Estrutura do Projeto
 
 1. **Criação da Base de Conhecimento**:
+  - Consultar e extrair dados de fontes diversas de forma eficiente.
    - A cada minuto o agente verifica se um novo arquivo foi incluído em uma determinada pasta do Google Drive.
    - Embeddings do Google Gemini são representações numéricas de dados de texto, imagem ou vídeo, que capturam o significado e as relações semânticas entre eles. Esses vetores numéricos permitem que modelos de aprendizado de máquina, especialmente de IA generativa, processem e produzam linguagem de forma mais eficaz, identificando padrões complexos e relações semânticas específicas de um determinado conteúdo. 
    - Pinecone é um banco de dados vetorial gerenciado na nuvem, projetado para otimizar a pesquisa de similaridade de dados em aplicações de inteligência artificial. Ele permite que desenvolvedores integrem facilmente pesquisa vetorial em seus aplicativos, como pesquisa semântica, sistemas de recomendação e análise de dados orientada por IA. 
@@ -34,7 +35,7 @@ Este projeto tem como objetivo Integrar inteligência artificial e automação p
   [Baixar Fluxo N8N](rag_vicssb.json)
 
 2. **Agente de IA de RAG**:
-   - O agente RAG faz o seguinte: Recuperação: a solicitação do usuário é usada para consultar uma base de dados de conhecimento externa, como um repositório de vetores, pesquisa de palavra-chave ou banco de dados SQL. A meta é obter os dados de suporte necessários para a resposta do LLM
+  - O agente RAG faz o seguinte: Recuperação: a solicitação do usuário é usada para consultar uma base de dados de conhecimento externa, como um repositório de vetores, pesquisa de palavra-chave ou banco de dados SQL. A meta é obter os dados de suporte necessários para a resposta do LLM
    - Ajuste dos hiperparâmetros.
    ![Fluxo N8N](./img/Vic_Agent.png)
   [Baixar Fluxo N8N](Vic_Agent.json)
@@ -53,23 +54,13 @@ Este projeto tem como objetivo Integrar inteligência artificial e automação p
 ## Uso no Chat do N8N
 ![Chat N8N](./img/chat1.png)
 
-## Uso no Google Colab
-33 minutos
-Para facilitar o treinamento, você pode utilizar o notebook disponível no Google Colab: [Transfer Learning Notebook](https://github.com/vicssb/Training-Neural-Networks-with-Transfer-Learning/blob/main/notebooks/transfer-learning.ipynb).
-
-## Imagens
-
-![Inteligência Artificial](./img/artificial-intelligence.png)
+## Uso no Chat na WEB
+![Chat na WEB](./img/chat2.png)
 
 ## Referência
 
-Para mais detalhes, consulte o laboratório original: [Criação de uma Base de Dados e Treinamento da Rede YOLO](https://web.dio.me/lab/criacao-de-uma-base-de-dados-e-treinamento-da-rede-yolo/learning/7400ba5c-9fd7-42cd-aefe-131acfe198cb).
+Para mais detalhes, consulte: https://docs.n8n.io/
 
-## Resultados
-
-Após o treinamento, o desempenho do modelo será avaliado, e os resultados serão exibidos. Você pode visualizar o processo de treinamento e os resultados usando o TensorBoard.
-
-  <img src="./img/Accuracy - Loss.png" alt="Gráfico de Acurácia - Perda" width="200"/>
 
 ## Licença
 
